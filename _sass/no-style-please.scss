@@ -27,6 +27,7 @@ body[a="dark"] { @include dark-appearance; }
 // bg color is also needed in html in order to
 // block body's background propagation
 // see: https://stackoverflow.com/a/61265706
+
 html, body { background: white; }
 
 html { height: 100%; }
