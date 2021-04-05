@@ -16,12 +16,6 @@ body[a="dark"] { @include dark-appearance; }
   body[a="auto"] { @include dark-appearance; }
 }
 
-@font-face {
-  font-family: 'Chosunilbo_myungjo';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Chosunilbo_myungjo.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
 // -------------------------------------------- //
 
 // bg color is also needed in html in order to
@@ -106,4 +100,8 @@ img {
   max-width: 100%;
   display: block;
   margin: 0 auto;
+}
+
+.centered {
+  text-align: center;
 }
