@@ -4,9 +4,9 @@
 entries:
   - title: about me
     entries:
-      - title: Just for fun 💻
-      - title: <a href="https://github.com/lewisleedev">github</a> / <a href="/projects.html">projects</a>
-      - title: "email me at lewislee@lewislee.net"
+      - title: Text here.
+      - title: text there.
+      - title: another text here and there.
 
   - title: all posts
     post_list:

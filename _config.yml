@@ -1,7 +1,7 @@
-title: lewisleedev # name of the site
+title: title # name of the site
 author: Lewis Lee # name of site's author
 email: lewislee@lewislee.net # email of site's author
-url: https://blog.lewislee.net # root address of the site
+url: https://dev.lewislee.net # root address of the site
 baseurl: "/" # subpath of the site, e.g. "/blog"
 description: > # description of the site (multiple lines allowed)
 
