@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+{% include back_link.html %}
+
+<article>
+  <p class="post-meta">
+    <time datetime="{{ page.date }}">{{ page.date | date: site.theme_config.date_format }}</time>
+  </p>
+  
+  <h1>{{ page.title }}</h1>
+
+  {{ content }}
+</article>
+
+<footer>
+  <hr data-content="Thoughts?">
+  <script src="https://utteranc.es/client.js"
+        repo="lewisleedev/lewisleedev.github.io"
+        issue-term="title"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+  <p class="centered">Contact me with <a href="mailto:lewislee@lewislee.net">Email</a> or <a href="https://github.com/lewisleedev/lewisleedev.github.io/issues">Github</a>.</p> 
+</footer>
