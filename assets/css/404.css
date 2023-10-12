@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Patua+One&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Patua One";
+}
+.main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+.text-container {
+  margin: auto;
+}
+.bignum {
+  text-align: center;
+  font-size: 3em;
+}
+.desc {
+  margin-top: 0.5em;
+  font-size: 1.3em;
+  text-align: center;
+  font-weight: bolder;
+}
+
+a {
+  color: black;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: black;
+  text-decoration: underline;
+}
+
+a:hover {
+  background: #fc5185;
+  color: black;
+  text-decoration: none;
+}
+
+::selection {background: #0da574; color: #001f3f}
